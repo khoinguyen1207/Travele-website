@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/index.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/js/index.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="top__header">
+                <div class="container__header">
+                    <div class="row__header">
+                        <ul class="row__header-ul">
+                            <li class="row__header-li row-link">
+                                <a href="#" class="row__header-a hover-icon">
+                                    <i class="fas fa-phone-alt row__header-icon"></i>
+                                    +01 (977) 2599 12
+                                </a>
+                            </li>
+                            <li class="row__header-li row-link">
+                                <a href="#" class="row__header-a hover-icon">
+                                    <i class="fas fa-envelope row__header-icon"></i>
+                                    company@domain.com
+                                </a>
+                            </li>
+                            <li class="row__header-li">
+                                <a href="#" class="row__header-a">
+                                    <i class="fas fa-map-marker-alt row__header-icon"></i>
+                                    3146 Koontz Lane, California
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social__header">
+                        <div class="header__social">
+                            <ul class="header__social-ul">
+                                <li class="header__social-li">
+                                    <a href="#" class="header__social-a"><i class="fab fa-facebook-f hover-icon" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="header__social-li">
+                                    <a href="#" class="header__social-a"><i class="fab fa-twitter hover-icon" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="header__social-li">
+                                    <a href="#" class="header__social-a"><i class="fab fa-instagram hover-icon" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="header__social-li">
+                                    <a href="#" class="header__social-a"><i class="fab fa-linkedin hover-icon" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__search">
+                            <button class="btn btn__header-search"><i class="fas fa-search hover-icon"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom__header">
+                <div class="container__bottom-header">
+                    <div class="bottom__header-logo">
+                        <a href="#">
+                            <img src="/image/travele-logo.png" alt="travele-logo" />
+                        </a>
+                    </div>
+                    <div class="bottom__header-menu">
+                        <ul class="bottom__header-ul">
+                            <li class="bottom__header-link"><a class="bottom__header-a" href="#">Home</a></li>
+                            <li class="bottom__header-link"><a class="bottom__header-a" href="#">Tour</a></li>
+                            <li class="bottom__header-link"><a class="bottom__header-a" href="#">Pages</a></li>
+                            <li class="bottom__header-link"><a class="bottom__header-a" href="#">Shop</a></li>
+                            <li class="bottom__header-link"><a class="bottom__header-a" href="#">Blog</a></li>
+                            <li class="bottom__header-link"><a class="bottom__header-a" href="#">DashBoard</a></li>
+                        </ul>
+                    </div>
+                    <div class="bottom__header-btn">
+                        <a href="#" class="btn btn-booking">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="home-slider-section">
+                <div class="slideshow-background"></div>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="/image/slider-banner-1.jpg" style="width: 100%" class="slideshow-img" />
+                        <div class="slideshow-layout">
+                            <div class="slideshow-content">
+                                <h2 class="slideshow-title">TRAVELLING AROUND THE WORLD</h2>
+                                <p class="slideshow-text">Taciti quasi, sagittis excepteur hymenaeos, id temporibus hic proident ullam, eaque donec delectus tempor consectetur nunc, purus congue? Rem volutpat sodales! Mollit. Minus exercitationem wisi.</p>
+                                <a href="#" class="slideshow-button">CONTINUE READING</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="/image/slider-banner-2.jpg" style="width: 100%" class="slideshow-img" />
+                        <div class="slideshow-layout">
+                            <div class="slideshow-content">
+                                <h2 class="slideshow-title">EXPERIENCE THE NATURE'S BEAUTY</h2>
+                                <p class="slideshow-text">Taciti quasi, sagittis excepteur hymenaeos, id temporibus hic proident ullam, eaque donec delectus tempor consectetur nunc, purus congue? Rem volutpat sodales! Mollit. Minus exercitationem wisi.</p>
+                                <a href="#" class="slideshow-button">CONTINUE READING</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </section>
+            <section class="search__section">
+                <img src="/image/slider-pattern.png" class="slideshow-pattern" />
+                <div class="search__container">
+                    <div class="search__content">
+                        <div class="search__input-group">
+                            <label class="search__label" for="">Search Destination*</label>
+                            <input type="text" class="search__input" placeholder="Enter Destination" />
+                        </div>
+                        <div class="search__input-group">
+                            <label class="search__label" for="">Pax Number*</label>
+                            <input type="text" class="search__input" placeholder="No.of People" />
+                        </div>
+                        <div class="search__input-group">
+                            <label class="search__label" for="">Checkin Date*</label>
+                            <input type="date" class="search__input" />
+                        </div>
+                        <div class="search__input-group">
+                            <label class="search__label" for="">Checkout Date*</label>
+                            <input type="date" class="search__input" />
+                        </div>
+                        <div class="search__input-group">
+                            <label for=""></label>
+                            <input type="submit" class="search__input btn-search" value="INQUIRE NOW" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="destination-section">
+                <div class="destination-heading">
+                    <div class="destination-heading-title">
+                        <h5>POPULAR DESTINATION</h5>
+                        <h2>TOP NOTCH DESTINATION</h2>
+                    </div>
+                    <div class="destination-heading-desc">Aperiam sociosqu urna praesent, tristique, corrupti condimentum asperiores platea ipsum ad arcu. Nostrud. Aut nostrum, ornare quas provident laoreet nesciunt.</div>
+                </div>
+                <div class="destination-inner">
+                    <div class="destination-left">
+                        <div class="desti__left-item">
+                            <img src="/image/img1.jpg" alt="item" class="desti__item-img" />
+                            <a href="#" class="desti-item-title">THAILAND</a>
+                            <div class="desti-item-content">
+                                <h3 class="desti-item-name">Disney Land</h3>
+                                <div class="desti-item-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="desti__left-item">
+                            <img src="/image/img2.jpg" alt="item" class="desti__item-img" />
+                            <a href="#" class="desti-item-title">NORWAY</a>
+                            <div class="desti-item-content">
+                                <h3 class="desti-item-name">Besseggen Ridge</h3>
+                                <div class="desti-item-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="destination-right">
+                        <div class="desti-item-row">
+                            <img src="/image/img3.jpg" alt="item" class="desti-row-img" />
+                            <a href="#" class="desti-item-title">NEW ZEALAND</a>
+                            <div class="desti-item-content">
+                                <h3 class="desti-item-name">Oxolotan City</h3>
+                                <div class="desti-item-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="desti-item-row">
+                            <img src="/image/img4.jpg" alt="item" class="desti-row-img" />
+                            <a href="#" class="desti-item-title">SINGAPORE</a>
+                            <div class="desti-item-content">
+                                <h3 class="desti-item-name">Marina Bay Sand City</h3>
+                                <div class="desti-item-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-button">
+                    <a class="btn btn-more-desti">MORE DESTINATION</a>
+                </div>
+            </section>
+            <section class="package-section">
+                <div class="container">
+                    <div class="package-heading">
+                        <div class="package-heading-title">
+                            <h5>EXPLORE GREAT PLACES</h5>
+                            <h2>POPULAR PACKAGES</h2>
+                        </div>
+                        <div class="package-heading-desc">Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</div>
+                    </div>
+                    <div class="package-wrap">
+                        <div class="package-item">
+                            <div class="package-price">
+                                <h6><span>$1,900</span> / per person</h6>
+                            </div>
+                            <img src="/image/imgitem1.jpg" alt="package-image" class="package-img" style="width: 100%; height: 100%" />
+                            <div class="package-content">
+                                <div class="package-meta">
+                                    <ul>
+                                        <li class="package-meta-link">
+                                            <i class="far fa-clock meta-icon"></i>
+                                            7D/6N
+                                        </li>
+                                        <li class="package-meta-link">
+                                            <i class="fas fa-user-friends meta-icon"></i>
+                                            People: 5
+                                        </li>
+                                        <li class="package-meta-link">
+                                            <i class="fas fa-map-marker-alt meta-icon"></i>
+                                            Malaysia
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="package-title">Sunset view of beautiful lakeside resident</h3>
+                                <div class="package-area">
+                                    <span class="package-review-text">(25 reviews)</span>
+                                    <div class="package-rating-start">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                                <p class="package-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
+                                <div class="package-control">
+                                    <a href="#" class="package-button-text"
+                                        >Book Now
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                    <a href="#" class="package-button-text"
+                                        >Wish List
+                                        <i class="far fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-item">
+                            <div class="package-price">
+                                <h6><span>$1,230</span> / per person</h6>
+                            </div>
+                            <img src="/image/imgitem2.jpg" alt="package-image" class="package-img" style="width: 100%; height: 100%" />
+                            <div class="package-content">
+                                <div class="package-meta">
+                                    <ul>
+                                        <li class="package-meta-link">
+                                            <i class="far fa-clock meta-icon"></i>
+                                            5D/4N
+                                        </li>
+                                        <li class="package-meta-link">
+                                            <i class="fas fa-user-friends meta-icon"></i>
+                                            People: 8
+                                        </li>
+                                        <li class="package-meta-link">
+                                            <i class="fas fa-map-marker-alt meta-icon"></i>
+                                            Canada
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="package-title">Experience the natural beauty of island</h3>
+                                <div class="package-area">
+                                    <span class="package-review-text">(17 reviews)</span>
+                                    <div class="package-rating-start">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                                <p class="package-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
+                                <div class="package-control">
+                                    <a href="#" class="package-button-text"
+                                        >Book Now
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                    <a href="#" class="package-button-text"
+                                        >Wish List
+                                        <i class="far fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-item">
+                            <div class="package-price">
+                                <h6><span>$2,000</span> / per person</h6>
+                            </div>
+                            <img src="/image/imgitem3.jpg" alt="package-image" class="package-img" style="width: 100%; height: 100%" />
+                            <div class="package-content">
+                                <div class="package-meta">
+                                    <ul>
+                                        <li class="package-meta-link">
+                                            <i class="far fa-clock meta-icon"></i>
+                                            6D/5N
+                                        </li>
+                                        <li class="package-meta-link">
+                                            <i class="fas fa-user-friends meta-icon"></i>
+                                            People: 6
+                                        </li>
+                                        <li class="package-meta-link">
+                                            <i class="fas fa-map-marker-alt meta-icon"></i>
+                                            Portugal
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="package-title">Vacation to the water city of Portugal</h3>
+                                <div class="package-area">
+                                    <span class="package-review-text">(22 reviews)</span>
+                                    <div class="package-rating-start">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                                <p class="package-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit luctus nec ullam. Ut elit tellus, luctus nec ullam elit tellpus.</p>
+                                <div class="package-control">
+                                    <a href="#" class="package-button-text"
+                                        >Book Now
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                    <a href="#" class="package-button-text"
+                                        >Wish List
+                                        <i class="far fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-button">
+                        <a class="btn btn-more-desti">VIEW ALL PACKAGES</a>
+                    </div>
+                </div>
+            </section>
+            <section class="callback-section">
+                <div class="container">
+                    <div class="callback-layout">
+                        <div class="callback-img">
+                            <img src="/image/imgvideo.jpg" alt="video" />
+                            <div class="callback-video-button">
+                                <a href="#">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="callback-inner">
+                            <div class="callback-heading">
+                                <div class="callback-heading-title">
+                                    <h5>CALLBACK FOR MORE</h5>
+                                    <h2>GO TRAVEL. DISCOVER. REMEMBER US!!</h2>
+                                </div>
+                                <div class="callback-heading-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Eaque adipiscing, luctus eleifend.</div>
+                            </div>
+                            <div class="callback-counter">
+                                <div class="counter-item">
+                                    <div class="counter-icon">
+                                        <img src="/image/counter-icon1.png" alt="counter-icon" class="counter-icon-img" />
+                                    </div>
+                                    <div class="counter-content">
+                                        <span class="counter-content-no">500K+</span>
+                                        <span class="counter-content-text">Satisfied Clients</span>
+                                    </div>
+                                </div>
+                                <div class="counter-item">
+                                    <div class="counter-icon">
+                                        <img src="/image/counter-icon2.png" alt="counter-icon" class="counter-icon-img" />
+                                    </div>
+                                    <div class="counter-content">
+                                        <span class="counter-content-no">250K+</span>
+                                        <span class="counter-content-text">Satisfied Clients</span>
+                                    </div>
+                                </div>
+                                <div class="counter-item">
+                                    <div class="counter-icon">
+                                        <img src="/image/counter-icon3.png" alt="counter-icon" class="counter-icon-img" />
+                                    </div>
+                                    <div class="counter-content">
+                                        <span class="counter-content-no">15K+</span>
+                                        <span class="counter-content-text">Satisfied Clients</span>
+                                    </div>
+                                </div>
+                                <div class="counter-item">
+                                    <div class="counter-icon">
+                                        <img src="/image/counter-icon4.png" alt="counter-icon" class="counter-icon-img" />
+                                    </div>
+                                    <div class="counter-content">
+                                        <span class="counter-content-no">10K+</span>
+                                        <span class="counter-content-text">Satisfied Clients</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="callback-support-area">
+                                <div class="support-icon">
+                                    <img src="/image/support-icon.png" alt="support-icon" style="width: 100%; height: auto" />
+                                </div>
+                                <div class="support-content">
+                                    <h4>Our 24/7 Emergency Phone Services</h4>
+                                    <h3>
+                                        <a href="#">Call: 123-456-7890</a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="activity-section">
+                <div class="container">
+                    <div class="activity-heading">
+                        <div class="activity-heading-title">
+                            <h5>TRAVEL BY ACTIVITY</h5>
+                            <h2>ADVENTURE & ACTIVITY</h2>
+                        </div>
+                        <div class="activity-heading-desc">Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</div>
+                    </div>
+                    <div class="activity-inner">
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <a href="#">
+                                    <img src="/image/activity-icon1.png" alt="activity-icon" />
+                                </a>
+                            </div>
+                            <div class="activity-content">
+                                <h4>Adventure</h4>
+                                <p>15 Destination</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <a href="#">
+                                    <img src="/image/activity-icon2.png" alt="activity-icon" />
+                                </a>
+                            </div>
+                            <div class="activity-content">
+                                <h4>Trekking</h4>
+                                <p>12 Destination</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <a href="#">
+                                    <img src="/image/activity-icon3.png" alt="activity-icon" />
+                                </a>
+                            </div>
+                            <div class="activity-content">
+                                <h4>Camp Fire</h4>
+                                <p>7 Destination</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <a href="#">
+                                    <img src="/image/activity-icon4.png" alt="activity-icon" />
+                                </a>
+                            </div>
+                            <div class="activity-content">
+                                <h4>Off Road</h4>
+                                <p>15 Destination</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <a href="#">
+                                    <img src="/image/activity-icon5.png" alt="activity-icon" />
+                                </a>
+                            </div>
+                            <div class="activity-content">
+                                <h4>Camping</h4>
+                                <p>13 Destination</p>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <a href="#">
+                                    <img src="/image/activity-icon6.png" alt="activity-icon" />
+                                </a>
+                            </div>
+                            <div class="activity-content">
+                                <h4>Exploring</h4>
+                                <p>25 Destination</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="special-section">
+                <div class="container">
+                    <div class="activity-heading">
+                        <div class="activity-heading-title">
+                            <h5>TRAVEL OFFER & DISCOUNT</h5>
+                            <h2>SPECIAL TRAVEL OFFER</h2>
+                        </div>
+                        <div class="activity-heading-desc">Mollit voluptatem perspiciatis convallis elementum corporis quo veritatis aliquid blandit, blandit torquent, odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</div>
+                    </div>
+                    <div class="special-inner">
+                        <div class="special-item">
+                            <div class="special-discout">
+                                <span><strong>20%</strong>off</span>
+                            </div>
+                            <img src="/image/img-special.jpg" alt="img-special" />
+                            <div class="special-content">
+                                <div class="special-content-location">CANADA</div>
+                                <h3 class="special-content-title">Experience the natural beauty of glacier</h3>
+                                <div class="special-content-price">
+                                    Price:
+                                    <del>$1500</del>
+                                    <span>$1200</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="special-item">
+                            <div class="special-discout">
+                                <span><strong>15%</strong>off</span>
+                            </div>
+                            <img src="/image/img-special1.jpg" alt="img-special" />
+                            <div class="special-content">
+                                <div class="special-content-location">NEW ZEALAND</div>
+                                <h3 class="special-content-title">Trekking to the mountain camp site</h3>
+                                <div class="special-content-price">
+                                    Price:
+                                    <del>$1300</del>
+                                    <span>$1105</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="special-item">
+                            <div class="special-discout">
+                                <span><strong>15%</strong>off</span>
+                            </div>
+                            <img src="/image/img-special2.jpg" alt="img-special" />
+                            <div class="special-content">
+                                <div class="special-content-location">MALAYSIA</div>
+                                <h3 class="special-content-title">Sunset view of beautiful lakeside city</h3>
+                                <div class="special-content-price">
+                                    Price:
+                                    <del>$1800</del>
+                                    <span>$1476</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
